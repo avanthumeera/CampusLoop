@@ -7,7 +7,7 @@ CampusLoop is a campus event and student-team discovery MVP. Students can find e
 - Frontend: React 19, Vite 6, and plain CSS
 - API: Node.js 24 and Express 5, using JSON over REST
 - Local database: SQLite through Node's built-in `node:sqlite` module
-- Authentication: bcryptjs password hashes and JWTs stored in HTTP-only cookies
+- Authentication: bcryptjs password hashes and JWTs 
 - Tests: Node's built-in test runner
 
 The current app uses SQLite. It does not require MongoDB or a paid database service for local development. The local SQLite file is created automatically at `server/data/campusloop.sqlite` and is intentionally excluded from Git.
