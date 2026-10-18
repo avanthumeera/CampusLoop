@@ -1,0 +1,21 @@
+{
+  "name": "campusloop-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "test": "node --test",
+    "organizer:approve": "node scripts/manage-organizer.js approve",
+    "organizer:revoke": "node scripts/manage-organizer.js revoke",
+    "team-requests": "node scripts/review-team-requests.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
