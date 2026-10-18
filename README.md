@@ -156,7 +156,5 @@ shared/
 - External form submissions cannot be tracked by CampusLoop.
 - Local SQLite data lives on this computer and is not shared with other users.
 - **The app has not been deployed publicly.** A public deployment needs an online hosting account and durable production storage. Do not deploy this SQLite database to an ephemeral filesystem: host restarts or redeploys can erase its data. Choose a persistent database/hosting arrangement before inviting real users.
-- `localhost` is only reachable from your computer; it is not a public project URL for a form submission.
-=======
 CampusLoop is an NIT Trichy campus event and team discovery platform built with React, Vite, Node.js, and Express. It uses MongoDB/Mongoose with a local SQLite option, JWT, and bcrypt. Students can discover events, explore teams, register for activities, and bookmark events through an Express REST API.
 
